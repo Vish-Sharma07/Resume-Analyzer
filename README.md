@@ -43,6 +43,23 @@ cd resume-analyzer
 
 npm install
 
+Usage
+
+Upload your PDF resume.
+
+View ATS score and skills match.
+
+(Optional) Paste a Job Description to check alignment.
+
+Read AI feedback and improve your resume.
+
+Future Improvements
+
+Highlight missing JD keywords directly in the resume text.
+
+Add PDF download/export with suggested improvements.
+
+Include more advanced NLP for better JD keyword extraction.
 
 3. Start the development server:
 
