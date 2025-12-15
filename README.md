@@ -1,16 +1,52 @@
-# React + Vite
+# Resume Analyzer 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite application that analyzes your resume for **ATS compatibility**, **skills coverage**, and **Job Description (JD) matching**, with AI-powered feedback to improve your resume.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Resume Upload**: Upload your PDF resume easily.
+- **ATS Score**: Check your resume’s compatibility with Applicant Tracking Systems.
+- **Skills Match**: Detect which key skills you have and which are missing.
+- **Job Description Match**: Paste a JD to see how well your resume aligns with it.
+- **AI Feedback**: Get actionable suggestions to improve your resume.
+- **Clean UI**: Built with Tailwind CSS for a modern look.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*(You can add a screenshot or GIF here showing your app in action)*
+
+---
+
+## Technologies Used
+
+- React 18 + Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- PDF text extraction
+- Custom skills & JD analysis logic
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+bash
+git clone https://github.com/your-username/resume-analyzer.git
+cd resume-analyzer
+
+2. Install dependencies:
+
+npm install
+
+
+3. Start the development server:
+
+npm run dev
+
+
+4. Open your browser at http://localhost:5173 (or as shown in terminal).
